@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luvit — 커플 데일리 미션</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Apple SD Gothic Neo", sans-serif;
+      background: linear-gradient(180deg, #3A117C 0%, #1F0644 100%);
+      color: #fff;
+      min-height: 100vh;
+      padding: 60px 20px;
+      line-height: 1.6;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    .logo {
+      text-align: center;
+      font-size: 56px;
+      font-weight: 900;
+      letter-spacing: -2px;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, #FFCDEF, #F0566F);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .tagline {
+      text-align: center;
+      color: rgba(255,255,255,0.7);
+      font-size: 16px;
+      margin-bottom: 48px;
+    }
+    .card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 20px;
+      padding: 32px;
+      margin-bottom: 20px;
+      backdrop-filter: blur(10px);
+    }
+    h2 {
+      font-size: 22px;
+      margin-bottom: 16px;
+      color: #FFCDEF;
+    }
+    p { margin-bottom: 12px; color: rgba(255,255,255,0.85); }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .links a {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #F0566F;
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: 700;
+      transition: opacity 0.2s;
+    }
+    .links a:hover { opacity: 0.85; }
+    .contact {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      color: #FFCDEF;
+    }
+    footer {
+      text-align: center;
+      color: rgba(255,255,255,0.4);
+      font-size: 13px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">Luvit</div>
+    <p class="tagline">커플 데일리 미션 챌린지</p>
+
+    <div class="card">
+      <h2>💕 매일, 우리 둘만의 미션</h2>
+      <p>매일 오전 9시, 작은 미션 하나가 도착합니다. 데이트·스킨십·칭찬·음악 등 다양한 카테고리의 챌린지로 매일이 작은 이벤트가 돼요.</p>
+      <p>내 미션은 비밀, 파트너의 미션은 추측의 대상. 자정에 정답과 함께 결과가 공개됩니다.</p>
+    </div>
+
+    <div class="card">
+      <h2>📄 정책 및 약관</h2>
+      <div class="links">
+        <a href="privacy.html">개인정보처리방침</a>
+        <a href="terms.html">이용약관</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>📮 문의하기</h2>
+      <p>서비스 이용 중 문제나 제안 사항이 있으시면 아래로 연락주세요.</p>
+      <p class="contact">이메일: yuseok0997@gmail.com</p>
+      <p style="font-size: 13px; color: rgba(255,255,255,0.5); margin-top: 8px;">운영자: East Noise</p>
+    </div>
+
+    <footer>
+      © 2026 East Noise. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
